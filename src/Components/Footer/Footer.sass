@@ -1,0 +1,70 @@
+*
+    a
+        list-style: none
+        text-decoration: none
+    b
+        margin-bottom: .5rem
+        font-size: 18px
+
+
+.footer
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    align-content: center
+    justify-items: center
+    margin: 1rem auto
+
+    .left
+        display: flex
+        flex-direction: column
+        gap: .5rem
+
+        p
+            color: #7a7878
+            font-size: 15px
+
+        a
+            text-decoration: none
+            color: #046D8B
+            font-size: 15px
+            &:hover
+                transform: scale(1.1)
+                cursor: pointer
+                transition: .3s
+                color: #0fa4ce
+
+    .center
+        display: flex
+        flex-direction: column
+        gap: .5rem
+
+        a
+            text-decoration: none
+            color: #046D8B
+            font-size: 15px
+            &:hover
+                transform: scale(1.1)
+                cursor: pointer
+                transition: .3s
+                color: #0fa4ce
+
+    .right_socialmedia
+        display: flex
+        gap: 1rem
+        
+        flex-direction: column
+
+        .social
+            display: flex
+            gap: 1rem
+            font-size: 24px
+
+            a
+                svg
+                    fill: #046D8B
+
+                    &:hover
+                        transform: scale(1.1)
+                        cursor: pointer
+                        transition: .3s
+                        fill: #0fa4ce

@@ -1,0 +1,50 @@
+.container_card
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding: 1rem
+    gap: .5rem
+    width: 300px
+    height: 120px
+    box-shadow: 0px 0px 8px 1px #888888
+    border-radius: 8px
+
+    .card
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 1.5rem
+        padding-bottom: .6rem
+        border-bottom: 1px solid #ccc
+
+
+        .logo
+            padding-top: 1rem
+
+            img
+                width: 50px
+                border-radius: 50%
+
+        .description
+            padding-top: .5rem
+
+    .rate
+        display: flex
+        gap: 1.5rem
+        padding-bottom: 1rem
+        color: #726f6f
+        align-items: center
+
+        .trophies
+            color: #FFBC0D
+        
+        .likes
+            color: #fe4e4d
+
+        .link
+            color: #00C7DD
+            cursor: pointer
+            &:hover
+                color: #0fa4ce
+                transition: .3s
