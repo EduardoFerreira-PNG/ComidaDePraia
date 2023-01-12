@@ -25,7 +25,7 @@
     position: absolute;
     top: 50%;
 
-    display: block;
+    display: relative;
 
     width: 20px;
     height: 20px;

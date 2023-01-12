@@ -1,5 +1,5 @@
 
-import { NavBar } from '../Components/NavBar'
+import { NavBar } from '../Components/NavBar/NavBar'
 
 import './Home.sass'
 
