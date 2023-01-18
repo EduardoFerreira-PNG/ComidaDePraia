@@ -1,27 +1,19 @@
 import './App.sass'
-import CenterMode from './Components/BestStore/BestStore'
-import Filter from './Components/Filter/Filter'
-import Search from './Components/Search/Search'
-import Home from './Pages/Home'
+import Home from './Pages/Home/Home'
+import Login from './Pages/Login/Login'
 
-import banner from './img/8125917.png'
-
-import Footer from './Components/Footer/Footer'
-import SubNav from './Components/SubNav/SubNav'
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App">
-      <Home />
-      <Search />
-      <Filter />
-      <CenterMode />
-      <SubNav />
-      <div className='banner_home'>
-        <img src={banner} alt="banner" />
-      </div>
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Login' element={<Login />} />
+        </Routes>
+      </Router>
     </div>
   )
 }

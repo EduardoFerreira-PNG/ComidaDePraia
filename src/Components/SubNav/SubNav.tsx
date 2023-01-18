@@ -9,7 +9,7 @@ import './SubNav.sass'
 const SubNav = () => {
     return (
         <div className='sub_nav--container'>
-                <h4>Sessões</h4>
+                <h4>Categorias</h4>
                 <div className="sub_nav">
                     <a href="#"><img src={restaurante} alt="" /></a>
                     <a href="#"><img src={mercado} alt="" /></a>

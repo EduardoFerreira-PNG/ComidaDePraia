@@ -1,38 +1,53 @@
-.container
-
-.nav 
+.nav
     display: grid
     grid-template-columns: repeat(3, 1fr)
-    align-items: center
     justify-items: center
-    color: #046D8B
+    align-items: center
+    color: #fff
     padding: .8rem
-    background-color: #fff
+    background-color: #ddbc42
 
     span
-        color: #0fa4ce
-    
+        color: #fff
+
     svg
         fill: #0fa4ce
 
     .logo
-        font-size: 12px
-    
-    .local
-        font-size: 16px
-    
+        display: flex
+        align-items: center
+        gap: 3rem
+
+        h1
+            font-size: 28px
+
+    .category
+
+        li
+            display: flex
+            list-style: none
+            gap: 1rem
+
+            a
+                text-decoration: none
+                color: #fff
+                font-size: 18px
+                font-weight: 400
+
     .user
         display: flex
         align-items: center
         gap: 1rem
+
+        a
+            color: #fff
 
         span
             cursor: pointer
             &:hover
                 color: #046D8B
                 transition: .3s
-                
-        
+
         button
             width: 90px
             height: 40px
@@ -44,7 +59,3 @@
             transition: .3s
             &:hover
                 background-color: #046D8B
-
-
-            
-        
