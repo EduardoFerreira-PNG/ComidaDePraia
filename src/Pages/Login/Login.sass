@@ -1,0 +1,104 @@
+.container_login
+    width: 100vw
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../../img/backgroundbeach.jpg")
+    background-size: cover
+    background-position: center
+
+    .img_login
+        display: flex
+
+        img
+            width: 500px
+            background-color: #fff
+            border-radius: 10px 0px 0px 10px
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3)
+
+    .user_login
+        width: 50vw
+        height: 65vh
+        display: flex
+        flex-direction: column
+        background-color: #fff
+        align-items: center
+        justify-content: center
+        box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3)
+        border-radius: 10px
+        gap: 2rem
+
+        h2
+            font-size: 40px
+            text-align: center
+
+        p
+            text-align: center
+            font-size: 20px
+
+        button
+            width: 50%
+
+        .social
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            gap: 1rem
+            width: 100%
+
+            button
+                display: flex
+                font-size: 17px
+                align-items: center
+                padding: .5rem
+                border-radius: 10px
+                border: none
+                gap: 3rem
+                &:hover
+                    cursor: pointer
+                    transform: scale(1.1)
+                    transition: .3s
+                    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, .3)
+                svg
+                    display: flex
+                    margin-left: .5rem
+                    font-size: 25px
+
+                b
+                    display: flex
+                    align-items: center
+                    margin-top: 5px
+
+            .apple
+                color: #fff
+                background-color: black
+
+            .facebook
+                background-color: #6081C7
+                color: #fff
+
+            .google
+                color: #5e5e5e
+
+        .login
+            width: 35vw
+            flex-wrap: wrap
+            display: flex
+            justify-content: center
+            align-items: center
+            gap: 1rem
+
+            button
+                width: 150px
+                padding: .8rem
+                border-radius: 6px
+                border: none
+                color: #5e5e5e
+                &:hover
+                    cursor: pointer
+                    transform: scale(1.1)
+                    transition: .3s
+                    
+
