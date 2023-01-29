@@ -1,0 +1,28 @@
+@use '../../styles/components/mixins/mixins'
+
+.container_email
+    @include mixins.background_login
+
+    .email_user
+         @include mixins.container_user_login
+
+    .form_email
+         @include mixins.form_user_login
+
+
+    label
+        font-size: 2rem
+        margin-bottom: 1rem
+    
+    input
+        width: 40%
+        padding: 1rem
+        border: 2px solid #ccc
+        border-radius: 10px
+        outline: none
+        &::placeholder
+            text-align: center
+        
+    button
+        @include mixins.btn_login
+        margin-top: 3rem

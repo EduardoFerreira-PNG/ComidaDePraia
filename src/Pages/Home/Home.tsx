@@ -6,7 +6,7 @@ import Search from '../../Components/Search/Search'
 import SubNav from '../../Components/SubNav/SubNav'
 import banner from '../../img/8125917.png'
 
-import './Home.sass'
+import './home.sass'
 
 const Home = () => {
   return (

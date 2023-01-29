@@ -1,3 +1,5 @@
+@use '../../styles/components/mixins/mixins'
+
 .container_login
     width: 100vw
     height: 100vh
@@ -7,6 +9,10 @@
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../../img/backgroundbeach.jpg")
     background-size: cover
     background-position: center
+
+    .comeback
+        @include mixins.comeback
+           
 
     .img_login
         display: flex
@@ -61,6 +67,7 @@
                     transform: scale(1.1)
                     transition: .3s
                     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, .3)
+                    
                 svg
                     display: flex
                     margin-left: .5rem
@@ -91,14 +98,8 @@
             gap: 1rem
 
             button
-                width: 150px
-                padding: .8rem
-                border-radius: 6px
-                border: none
-                color: #5e5e5e
-                &:hover
-                    cursor: pointer
-                    transform: scale(1.1)
-                    transition: .3s
-                    
+                 @include mixins.btn_login
+                
+
+        
 

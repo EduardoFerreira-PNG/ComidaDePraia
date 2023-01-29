@@ -31,7 +31,7 @@ export const NavBar = () => {
           </li>
         </div>
         <div className="user">
-          <span>Criar conta</span>
+        <Link to="/Login"> <span >Criar conta</span></Link>
           <button>
             <Link to="/Login"><a>Entrar</a></Link>
           </button>
