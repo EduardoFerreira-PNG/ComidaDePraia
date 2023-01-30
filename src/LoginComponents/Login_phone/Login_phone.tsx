@@ -1,4 +1,4 @@
-import { BsArrowLeftSquareFill } from 'react-icons/bs'
+import { BsArrowLeftSquareFill, BsPhone } from 'react-icons/bs'
 
 import { Link } from 'react-router-dom'
 
@@ -14,7 +14,8 @@ const Login_phone = () => {
       </div>
       <div className="phone_user">
         <div className='form_phone'>
-          <label htmlFor="phone">Digite seu celular</label>
+          <h2>Bem vindo de volta!</h2>
+          <label htmlFor="phone">Digite seu celular <BsPhone /></label>
           <input type="text" name='phone' placeholder='Digite seu número de celular' />
         </div>
           <button className='login_phone'>Entrar</button>

@@ -11,9 +11,12 @@
 
 
     label
+        display: flex
+        align-items: center
+        gap: 1rem
         font-size: 2rem
         margin-bottom: 1rem
-    
+
     input
         width: 40%
         padding: 1rem
@@ -26,3 +29,6 @@
     button
         @include mixins.btn_login
         margin-top: 3rem
+
+    .comeback
+        @include mixins.comeback
