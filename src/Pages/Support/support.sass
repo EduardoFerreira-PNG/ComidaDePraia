@@ -1,5 +1,8 @@
+@use '../../styles/components/mixins/mixins'
+
 .container_support
     background-color: #fff
+    color: #046D8B
 
     h2
         text-align: center
@@ -10,6 +13,7 @@
     .support
        display: flex
        height: 150px
+       margin-top: 2rem
        gap: 2rem
        justify-content: center
        align-items: center
@@ -17,8 +21,47 @@
        .card_support
         display: flex
         justify-content: center
+        align-items: center
+        gap: .5rem
         text-align: center
         flex-direction: column
-        border: 1px solid #ccc
-        padding: 1.5rem
-        border-radius: 10px
+        border-top: 2px solid #046D8B
+        border-bottom: 2px solid #046D8B
+        padding: 1.8rem
+
+        svg
+            font-size: 30px
+            fill: #046D8B
+        
+    img
+        max-width: 65%
+    
+    .form_support
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        justify-items: center
+        align-items: center
+        margin-top: 3rem
+
+        .user
+            display: flex
+            flex-direction: column
+            gap: .5rem
+            width: 70%  
+
+        input
+            padding: .6rem
+            outline: none
+            border-radius: 10px
+            border: 2px solid #046D8B
+        
+        textarea
+            padding: .3rem
+            border: 2px solid #046D8B
+            border-radius: 10px
+
+        .btn_form
+            display: flex
+            justify-content: center
+            text-align: center
+            @include mixins.btn_login
