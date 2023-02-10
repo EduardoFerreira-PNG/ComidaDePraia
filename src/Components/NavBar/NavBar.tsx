@@ -23,8 +23,8 @@ export const NavBar = () => {
         {/* <div className="local"><p>Avenida do Oratório, <span>4473</span> <ImLocation2 /></p></div> */}
         <div className='category'>
           <li>
-            <a href="#">Restaurante</a>
-            <a href="#">Mercado</a>
+            <Link to='/Restaurant'><a href="#">Restaurante</a></Link>
+            <Link to='/Market'><a href="#">Mercado</a></Link>
             <a href="#">Farmácia</a>
             <a href="#">Bebidas</a>
             <a href="#">Pet</a>

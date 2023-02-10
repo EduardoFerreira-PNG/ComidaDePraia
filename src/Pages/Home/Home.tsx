@@ -16,9 +16,6 @@ const Home = () => {
       <Filter />
       <CenterMode />
       <SubNav />
-      <div className='banner_home'>
-        <img src={banner} alt="banner" />
-      </div>
       <Footer />
     </div>
   )

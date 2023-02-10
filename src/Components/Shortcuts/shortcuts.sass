@@ -1,0 +1,50 @@
+.container
+    display: flex
+    justify-content: center
+    background: #fff
+    align-items: center
+
+    .arrow_left
+        font-size: 25px
+        cursor: pointer
+        svg
+            &:hover
+                transition: .3s
+                fill: #046D8B
+
+    .arrow_right
+        font-size: 25px
+        cursor: pointer
+        svg
+            &:hover
+                transition: .3s
+                fill: #046D8B
+
+    .shortcuts
+        display: flex
+        gap: 2rem
+        padding: .5rem
+        
+
+        .card
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            gap: .5rem
+
+            &:hover
+                transform: scale(1.1)
+                transition: .3s
+                cursor: pointer
+
+            p
+                font-style: normal
+                font-weight: 200
+                color: #0fa4ce
+            img
+                width: 65px
+                height: 50px
+                border-radius: 10px
+                &:hover
+                    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .5)

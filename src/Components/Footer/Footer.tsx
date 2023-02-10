@@ -14,10 +14,10 @@ const Footer = () => {
         <a href="#">Perguntas Frequentes</a>
         <a href="#">FAQ</a>
         <Link to="/Support"><a href="#">Suporte</a></Link>
-        <p>Atendimento de Seg á Sex das 8:00 ás 20:00</p>
+        {/* <p>Atendimento de Seg á Sex das 8:00 ás 20:00</p>
         <p>Cidade Metropolitana: (11)4108-8852</p>
         <p>Central de Atendimento: 0800 4105 3358</p>
-        <p>Email: comidadepraiasuporte@outlook.com</p>
+        <p>Email: comidadepraiasuporte@outlook.com</p> */}
       </div>
       <div className="center">
         <b>Descubra</b>

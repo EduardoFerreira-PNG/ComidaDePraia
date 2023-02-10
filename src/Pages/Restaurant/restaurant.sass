@@ -1,0 +1,134 @@
+.page_restaurant
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../../img/sand.jpg")
+    background-position: top
+    background-size: cover
+
+    
+    .tittle_page
+        text-align: center
+        margin: 2rem auto
+        font-size: 50px
+        margin: 4rem auto
+        color: #fff
+        text-shadow: 0px 2px 3px #000
+
+    .container_restaurant
+        display: flex
+        gap: 3rem
+        flex-wrap: wrap
+        justify-content: space-around
+        margin: 0 auto
+        width: 100%
+
+        .card_restaurant
+            display: flex
+            flex-direction: column
+            justify-items: center
+            align-items: center
+            width: 350px
+            height: 200px
+            background-color: #fff
+            border-radius: 10px
+            margin: 0 1rem
+            &:hover
+                cursor: pointer
+                transition: .3s
+                transform: scale(1.1)
+                box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6)
+            
+            .img_food
+                display: flex
+                justify-content: center
+                height: 50%
+                width: 100%
+                background: url("https://www.comidaereceitas.com.br/wp-content/uploads/2016/04/Feijoada-deliciosa.jpg") no-repeat
+                background-position: center
+                background-size: cover
+                border-radius: 10px 10px 0 0
+
+                
+            h4
+                font-size: 25px
+            
+
+            .status_restaurant
+                display: flex
+                justify-content: center
+                align-items: flex-start
+                height: 100px
+                width: 100%
+                
+                
+                .information
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    gap: .5rem
+                    background-color: #fff
+                    width: 100%
+                    padding: .3rem
+
+                    .name
+                        display: flex
+                        justify-content: space-between
+                        
+                        p
+                            background-color: rgba(4,109 ,139 , 0.5 )
+                            border-radius: 8px
+                            padding: .4rem
+                            margin-right: .5rem
+                            font-size: 15px
+                            display: flex
+                            align-items: center
+                            color: #fff
+
+                            svg
+                                fill: #ffc831
+
+                img
+                    position: relative
+                    bottom: 50px
+                    width: 100px
+                    border-radius: 50%
+                    border-bottom: 2px solid #ccc
+
+                .status
+                    display: flex
+                    align-items: flex-start
+                    font-size: 16px
+                    gap: .8rem
+
+                    p
+                        display: flex
+                        align-items: center
+                        gap: .3rem
+
+                        svg
+                            fill: #046D8B
+                    
+
+    .next_page
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 1rem
+        margin: 3rem 0 .5rem 0
+
+        a
+            text-decoration: none
+            color: #fff
+        
+        p
+            color: #fff
+            font-size: 25px
+            margin-bottom: 10px
+
+        svg
+            font-size: 35px
+            fill: #fff
+            &:hover
+                background: #fff
+                border-radius: 50%
+                transition: .2s
+                fill: black
+                color: black
